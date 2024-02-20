@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-image:url(./image/depositphotos_61243733-stock-illustration-business-company-logo.jpg);
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  background-position: center;
+  height: 100vh;
+  font-family: sans-serif;
+  background-size: cover;
+}
+
+.menu-bar{
+    background: rgb(250, 250, 250): opacity: 0.5; 
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: aliceblue;
+}
+.menu-bar ul li{
+    margin: 15px;
+    width: 90px;
+    padding: 15px;
+}
+.menu-bar ul li a{
+text-decoration: none;
+color: rgb(167, 14, 14);
+font-weight: bolder;
+}
+.active,.menu-bar ul li:hover{
+    background: rgb(202, 118, 16);
+    border-radius: 3px;
+}
+.menu-bar.fa{
+    margin-right: 8px;
+}
+img{
+  float: left;
+    height: 80px;
+    width: auto;
+    padding-left: 2%;
+   
+}
+h1{
+    text-align: center;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ff7200;
+    color: #000;
+    text-shadow: 2px 2px 2px gray;
+    
+}
+ input {
+color: orange;
+background-color: rgb(224, 224, 63);
+border: solid 5px;
+/* border-top: rgb(139, 51, 153); */
+border-radius:1cap;
+text-align: center;
+height: 30px;
+
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+position: absolute;
+top: -20px;
+left: 870px;
+border-radius: 10px;
+padding: 25px;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    
+}
+
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+
+.btnn:hover{
+    background: #fff;
+    color: #ff7200;
+}
+
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: #ff7200;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.icons ion-icon {
+    color: orange;
+    font-size: 30px;
+    padding-right: 20px;  
+    padding-top: 480px;
+    float:right;
+
+ transition: 0.3s ease;
+ 
+}
+.icons ion-icon:hover{
+    color: #ff7200;
+}
+
+
+
